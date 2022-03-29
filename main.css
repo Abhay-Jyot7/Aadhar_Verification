@@ -2,7 +2,8 @@
 body {
     margin:0px;
     height:100vh;
-    background: #76e2e6;
+    background: url(images/farmer_bg.webp);
+    background-attachment: fixed;
   }
   
 
