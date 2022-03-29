@@ -4,6 +4,7 @@ body {
     height:100vh;
     background: url(images/farmer_bg.webp);
     background-attachment: fixed;
+    background-repeat: no-repeat;
   }
   
 
