@@ -5,16 +5,22 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
-	<link href="main.css">	
-	<div class="container-login">
+	<link rel="stylesheet" href="main.css">
+
+	<div class="container" style="padding-top: 250px;">
 		
 		<div class="container-login" >
 		  	<div class="container-login">
-		    	<label for="exampleInputAadharCard">Aadhar Card No.</label>
+				<label for="exampleInputAadharCard" style="
+				font-weight: bolder;
+				font-size: 22px;
+			">Aadhar Card No.</label>
 		    	<input type="text" class="form-control" id="exampleInputAadharCard" placeholder="Enter Your Aadhar Card No." name="exampleInputAadharCard">
 		    	<small id="message" class="form-text text-muted"></small>
 		  	</div>
-		  	<button type="button" class="btn btn-primary" onclick="verify()">Verify</button>
+			  <div class="button" style="color: brown;"> 
+		  	<button type="button" class="btn btn-primary" onclick="verify()">Login</button>
+		</div>
 		</div>
 	</div>
 	<script type="text/javascript">
